@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+
+.Card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: auto; 
+
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+.Card.Title {
+  color: #007bff; 
+}
+
+
+.Card.Text a {
+  color: #28a745; 
+  font-weight: bold;
+}
+
+
+.Card.Text a:hover {
+  text-decoration: underline;
+}
